@@ -1,56 +1,67 @@
 body{
-    background-color: orange;
+    background-color: #faab36;
 }
 
-
+h1{
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
 
 #boxwrapper{
     width: 870px;
     height: 870px;
     margin: 50px auto;
 
-    
 }
 
 .box{
     width: 100px;
     height: 100px;
-    background-color: yellow;
+    background-color: #249ea0;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 10px;
+    border: 1px inset black;
+
 }
 
 .fizz{
     width:  100px;
     height: 100px;
-    background-color: rgb(0, 238, 255);
+    background-color: #25B396;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 10px;
+    border: 1px inset black;
+
+
 
 }
 
 .buzz{
     width:  100px;
     height: 100px;
-    background-color: rgb(0, 255, 85);
+    background-color: #1E65A7;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 10px;
+    border: 1px inset black;
+
 
 }
 
 .fizzbuzz{
     width:  100px;
     height: 100px;
-    background-color: rgb(255, 0, 0);
+    background-color: #F3AD78;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 10px;
+    border: 1px inset black;
+
+
 
 }
