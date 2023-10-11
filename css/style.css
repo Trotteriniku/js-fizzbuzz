@@ -1,15 +1,14 @@
-.body{
+body{
     background-color: orange;
-    color: white;
 }
 
 
 
 #boxwrapper{
-    width: 700px;
-    height: 700px;
+    width: 870px;
+    height: 870px;
     margin: 50px auto;
-    
+
     
 }
 
@@ -20,6 +19,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10px;
 }
 
 .fizz{
@@ -29,6 +29,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10px;
+
 }
 
 .buzz{
@@ -38,6 +40,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10px;
+
 }
 
 .fizzbuzz{
@@ -47,4 +51,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10px;
+
 }
