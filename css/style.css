@@ -6,6 +6,8 @@ h1{
     text-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
 
+
+
 #boxwrapper{
     width: 870px;
     height: 870px;
@@ -22,7 +24,12 @@ h1{
     align-items: center;
     margin: 10px;
     border: 1px inset black;
+    transition: all 0.1s ;
+}
 
+.box:hover{
+    transform: scale(1.1);
+    color: white;
 }
 
 .fizz{
@@ -34,9 +41,13 @@ h1{
     align-items: center;
     margin: 10px;
     border: 1px inset black;
+    transition: all 0.1s ;
 
+}
 
-
+.fizz:hover{
+    transform: scale(1.1);
+    color: white;
 }
 
 .buzz{
@@ -48,8 +59,13 @@ h1{
     align-items: center;
     margin: 10px;
     border: 1px inset black;
+    transition: all 0.1s ;
 
+}
 
+.buzz:hover{
+    transform: scale(1.1);
+    color: white;
 }
 
 .fizzbuzz{
@@ -61,7 +77,10 @@ h1{
     align-items: center;
     margin: 10px;
     border: 1px inset black;
+    transition: all 0.1s ;
+}
 
-
-
+.fizzbuzz:hover{
+    transform: scale(1.1);
+    color: white;
 }
